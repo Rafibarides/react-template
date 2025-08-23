@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg-color, #ffffff);
+  color: var(--text-color, #111827);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
