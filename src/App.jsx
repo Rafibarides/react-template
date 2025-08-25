@@ -5,8 +5,10 @@ import HomePage from "./pages/HomePage.jsx";
 import AboutPage from "./pages/AboutPage.jsx";
 
 function App() {
+  const basename = import.meta.env.PROD ? '/react-template' : '';
+  
   return (
-    <Router>
+    <Router basename={basename}>
       <div>
         <NavBar />
         <main style={{ padding: '20px' }}>
