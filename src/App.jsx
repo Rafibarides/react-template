@@ -6,7 +6,7 @@ import AboutPage from "./pages/AboutPage.jsx";
 
 function App() {
   return (
-    <Router basename="/react-template">
+    <Router>
       <div>
         <NavBar />
         <main style={{ padding: '20px' }}>
